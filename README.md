@@ -2,7 +2,13 @@
 
 Running example of Angular 7 + Google Maps v3
 
+Contains Google Maps Places Autocomplete and Directions example.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+
+## Install dependencies
+
+Run `npm i` on console to create `node_modules` directory.
 
 ## Set Google Maps API key
 
