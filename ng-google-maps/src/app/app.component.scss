@@ -1,0 +1,80 @@
+input[placeholder] { text-overflow: ellipsis; }
+
+.border {
+    border: 1em;
+    border-radius: 10%;
+}
+
+#route-container {
+  margin: 1em;
+}
+
+.add-route-container {
+    display: flex;
+    padding: 0%;
+    margin-bottom: 5em;
+
+    #input-and-display-address {
+        justify-content: flex-start;
+        padding: 0%;
+
+        #distance-price-container {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    #map {
+        justify-content: flex-end;
+        padding-right: 0%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+agm-map {
+    height: 500px;
+    width: 100%;
+}
+
+#distance-container {
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+#price-container {
+    padding-top: 2em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.line {
+    display: flex;
+    align-content: center;
+}
+
+.letter-marker {
+    height: 25px;
+    width: 25px;
+    min-width: 25px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-right: 1em;
+    align-self: center;
+}
+
+.address-complement, .personResponsible, .scheduledArrivalTime, .waitingTime  {
+    border: none;
+}
+
+.center {
+    vertical-align: middle;
+}
+
