@@ -1,10 +1,16 @@
 # ng-google-maps-example
 
-Running example of Angular 7 + Google Maps v3
-
-Contains Google Maps Places Autocomplete and Directions example.
+Working example of Angular 7 + Google Maps v3.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+
+## Features
+
+This example contains:
+- Autocomplete search box
+- Directions displayed in map
+- Calculate distance of the route
+- Set markers alphabetically
 
 ## Install dependencies
 
