@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --ec true",
+    "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "test:coverage": "ng test --watch=true --code-coverage",
